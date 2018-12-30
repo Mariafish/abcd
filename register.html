@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册页面</title>
+		<style type="text/css">
+			.aa{
+				margin:80px auto;
+			}
+			.bb{
+				background-image:url(img/timg.jpg)
+			}
+			
+		</style>
+	</head>
+	<body bgcolor="darksalmon">
+	  <div class="bb" align="center"  >
+		<div  class="aa"align="center" style="border:2px solid black;width:450px;"> 
+		  <form action="index.html" >
+			<filedset>
+				<legend>Personal infomation</legend>
+				<p>用户名：</p><br />
+				<input type="text" name="Yourname" value="王二麻子"><br/>
+				<p>密码：</p><br/>
+				<input type="password" name="password" ><br/>
+				<p>性别：</p><br />
+				<input type="radio" name="gender" value="女 " checked>女
+				<input type="radio" name="gender" value="男">	男	<br/>
+				<p>爱好：</p><br />
+				<input type="checkbox" name="hobby" value="跳舞">跳舞
+				<input type="checkbox" name="hobby" value="唱歌">唱歌
+				<input type="checkbox" name="hobby" value="学习">学习
+				<input type="checkbox" name="hobby" value="打篮球">打篮球<br />
+				<input type="checkbox" name="hobby" value="学习">看电影
+				<input type="checkbox" name="hobby" value="美妆">玩游戏<br/>
+				<p>籍贯：</p><br />
+				<select name="city">
+				  <option value="北京">北京</option>
+				  <option value="上海">上海</option>
+				  <option value="广州">广州</option>
+				  <option value="深圳">深圳</option>
+				</select><br />
+				<p>自我介绍：</p><br />
+				<textarea cols="15" rows="10" >
+			    </textarea> <br /> 
+			    <input type="submit" value="提交">
+			    <input type="reset" value="重置">
+			    <button type="button" >取消</button>
+			</filedset>
+		  </form>
+		</div>
+	  </div>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+    <div style="text-align:center;">
+        <button onclick="playPause()">播放/暂停</button> 
+        <button onclick="Big()">大</button>
+        <button onclick="Normal()">中</button>
+        <button onclick="Small()">小</button>
+    <br />
+    <video src="img/iceage4.mp4" controls="controls" id="video"><ideo>
+    </div>
+    <script>
+        var myVideo = document.getElementById("video")
+        var playStatus = false 
+        function playPause() {
+            if(playStatus) {
+                myVideo.pause()
+            }else{
+                myVideo.play()
+            }
+            playStatus = !playStatus
+        }
+        function Big() {
+            myVideo.width = 800
+        }
+        function Normal() {
+            myVideo.width = 500
+        }
+        function Small() {
+            myVideo.width = 200
+        }
+    </script> 
+	</body>
+<ml>
+
